@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Hello, world!</title>
+
+</head>
+
+<body>
+    <h1 class="text-center header_area">Welcome to pioneer bank</h1>
+
+
+    <form id="login_area" class="container">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <!-- <input type="button" id="buttton" value="submit"> -->
+        <button type="button" class="btn btn-success" id="buttton">submit</button>
+    </form>
+
+
+
+    <section class="tranction_area container" id="tranction_area">
+
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="submit_area">
+                    <h4>Deposit</h4>
+                    <h2>$ <span id="currentDiposit">00</span></h2>
+                </div>
+
+            </div>
+            <div class="col-lg-4 ">
+                <div class="withdraw_area">
+                    <h4>Withdraw</h4>
+                    <h2>$ <span id="currentwithdraw"> 00</span> </h2>
+                </div>
+
+
+            </div>
+            <div class="col-lg-4 ">
+                <div class="balance_area">
+                    <h4>Balance</h4>
+                    <h2>$<span id="currentbalance">1024</span></h2>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="dipositarea">
+                    <h4>Diposit</h4>
+                    <input type="text" id="diposit" class="form-control" placeholder="$ amount you want to deposit"><br>
+                    <button id="diposite" class="btn btn-success"> Diposit</button>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="withdrawarea">
+                    <h4>Withdraw</h4>
+                    <input id="WithdrawAmount" type="text" class="form-control"
+                        placeholder="$ amount you want to Withdraw"><br>
+                    <button id="addWithdraw" class="btn btn-success"> Withdraw</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+    <script src="dom.js"></script>
+</body>
+
+</html>

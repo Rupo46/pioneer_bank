@@ -1,0 +1,49 @@
+#login_area {
+    box-shadow: 2px 6px 41px black;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+.header_area {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.tranction_area {
+    display: none;
+}
+
+.submit_area {
+    background-color: #6044C5;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+}
+
+.withdraw_area {
+    background-color: #E98F73;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+}
+
+.balance_area {
+    background-color: #E79C0A;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+}
+
+.dipositarea {
+    box-shadow: 2px 6px 41px black;
+    padding: 35px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.withdrawarea {
+    box-shadow: 2px 6px 41px black;
+    padding: 35px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
